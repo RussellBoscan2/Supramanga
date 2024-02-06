@@ -1,0 +1,52 @@
+body{
+    background-color: #EEEDED;
+}
+
+.navbarBG{
+    background: rgba(0,0,0,0.5);
+}
+.DarkenOnHover:hover{
+    filter: brightness(70%);
+    -webkit-transition: ease-in-out 0.25s;
+    transition: ease-in-out 0.25s;
+}
+
+.NavTextWhite{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.nav-link:focus, .nav-link:hover .nav-item:focus{
+    color: lightslategray;
+}
+
+@media only screen and (min-width: 576px) {
+    .nav-link:focus, .nav-link:hover{
+        color: lightslategray;
+        border-right: solid lightslategray;
+        transition: bordease-in-out 0.50;
+    }
+}
+.nav-link:focus, .nav-link:hover{
+    color: lightslategray;
+}
+
+.navbar-toggler:focus{
+    color: lightslategray;
+}
+
+.dropdown-item:hover{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: ease-in-out 0.25;
+}
+
+.SMLogo{
+    border-radius: 5px;
+}
+
+.lastReleaseImg{
+    width: 100vw;
+    height: 100vh;
+}
