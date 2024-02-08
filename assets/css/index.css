@@ -12,6 +12,7 @@ body{
 }
 
 .NavTextWhite{
+    font-family: 'Comic Neue', regular;
     color: #ffffff;
     text-decoration: none;
 }
@@ -19,6 +20,16 @@ body{
 
 .nav-link:focus, .nav-link:hover, .nav-item:focus {
     color: #d71313;
+}
+
+.btnSearch{
+    border: solid 1px #d71313; 
+    border-radius: 5px;
+}
+
+.btnSearch:hover{
+    background: #d71313;
+    color: #fff;
 }
 
 .navbar-toggler:focus{
@@ -38,11 +49,18 @@ body{
 .lastReleaseImg{
         width: 100%;
     }
+
+.NewReleases{
+    font-family: 'Comic Neue', Bold;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
     
 @media only screen and (max-width: 576px) {
     .nav-link:focus, .nav-link:hover{
-        color: lightslategray;
-        border-right: solid lightslategray;
+        color: #D71313;
+        border-right: 1px solid  #D71313;
         transition: ease-in-out 0.50s;
     }
 }
