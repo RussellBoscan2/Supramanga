@@ -17,23 +17,12 @@ body{
 }
 
 
-.nav-link:focus, .nav-link:hover .nav-item:focus{
-    color: lightslategray;
-}
-
-@media only screen and (min-width: 576px) {
-    .nav-link:focus, .nav-link:hover{
-        color: lightslategray;
-        border-right: solid lightslategray;
-        transition: bordease-in-out 0.50;
-    }
-}
-.nav-link:focus, .nav-link:hover{
-    color: lightslategray;
+.nav-link:focus, .nav-link:hover, .nav-item:focus {
+    color: #d71313;
 }
 
 .navbar-toggler:focus{
-    color: lightslategray;
+    color: #D71313;
 }
 
 .dropdown-item:hover{
@@ -46,7 +35,20 @@ body{
     border-radius: 5px;
 }
 
-.lastReleaseImg{
-    width: 100vw;
-    height: 100vh;
+    .carousel-inner{
+        height: 100vh;
+    }
+
+    .lastReleaseImg{
+        width: 100%;
+        height: auto;
+    }
+
+
+@media only screen and (max-width: 576px) {
+    .nav-link:focus, .nav-link:hover{
+        color: lightslategray;
+        border-right: solid lightslategray;
+        transition: ease-in-out 0.50s;
+    }
 }
