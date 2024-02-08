@@ -56,6 +56,18 @@ body{
     margin-left: 1rem;
 }
 
+.card{
+    width: 18rem;
+}
+.card-img-top{
+    width: 100%;
+    height: auto;
+}
+
+.card:hover{
+    width: 19rem;
+    transition: all ease-in-out 0.25s;
+}
     
 @media only screen and (max-width: 576px) {
     .nav-link:focus, .nav-link:hover{
