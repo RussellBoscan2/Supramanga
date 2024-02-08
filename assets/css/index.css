@@ -5,10 +5,13 @@ body{
 .navbarBG{
     background: rgba(0,0,0,0.5);
 }
+
+.DarkenOnHover{
+    transition: ease-in-out 0.25s;
+}
+
 .DarkenOnHover:hover{
     filter: brightness(70%);
-    -webkit-transition: ease-in-out 0.25s;
-    transition: ease-in-out 0.25s;
 }
 
 .NavTextWhite{
@@ -20,6 +23,8 @@ body{
 
 .nav-link:focus, .nav-link:hover, .nav-item:focus {
     color: #d71313;
+    -webkit-transition: ease-in-out 0.25s;
+    transition: ease-in-out 0.25s;
 }
 
 .btnSearch{
@@ -39,7 +44,7 @@ body{
 .dropdown-item:hover{
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.3);
-    transition: ease-in-out 0.25;
+    transition: ease-in-out 0.25s;
 }
 
 .SMLogo{
@@ -58,6 +63,7 @@ body{
 
 .card{
     width: 18rem;
+    transition: ease-in-out 0.20s;
 }
 .card-img-top{
     width: 100%;
@@ -66,7 +72,6 @@ body{
 
 .card:hover{
     width: 19rem;
-    transition: all ease-in-out 0.25s;
 }
     
 @media only screen and (max-width: 576px) {
