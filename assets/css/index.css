@@ -35,16 +35,10 @@ body{
     border-radius: 5px;
 }
 
-    .carousel-inner{
-        height: 100vh;
-    }
-
-    .lastReleaseImg{
+.lastReleaseImg{
         width: 100%;
-        height: auto;
     }
-
-
+    
 @media only screen and (max-width: 576px) {
     .nav-link:focus, .nav-link:hover{
         color: lightslategray;
