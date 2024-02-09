@@ -2,8 +2,16 @@ body{
     background-color: #EEEDED;
 }
 
+.navbar{
+    transition: ease-in-out 0.25s;
+}
+
 .navbarBG{
     background: rgba(0,0,0,0.5);
+}
+
+.navbar-brand{
+    transition: ease-in-out 0.25s;
 }
 
 .DarkenOnHover{
@@ -49,6 +57,8 @@ body{
 
 .SMLogo{
     border-radius: 5px;
+    transition: ease-in-out 0.25s;
+    width: 64px;
 }
 
 .lastReleaseImg{
