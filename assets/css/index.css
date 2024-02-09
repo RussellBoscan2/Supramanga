@@ -85,6 +85,7 @@ body{
 }
     
 @media only screen and (max-width: 576px) {
+    
     .nav-link:focus, .nav-link:hover{
         color: #D71313;
         border-right: 1px solid  #D71313;

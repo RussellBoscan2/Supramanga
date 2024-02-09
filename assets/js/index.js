@@ -5,11 +5,6 @@ window.addEventListener('load', () => {
 const Logo = document.getElementById("SMLogo");
 const NavBar = document.getElementById("navbar");
 
-    function changeLogoSize(){
-        document.getElementById("SMLogo").style.width = "20px";
-        return false;
-    }
-
     window.onscroll = function(){
         shrinkNavbarScroll();
     }
